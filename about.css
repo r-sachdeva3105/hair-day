@@ -1,0 +1,20 @@
+main {
+    margin: 2em;
+}
+h1.title {
+    color: #d05f4b;
+    font-size: 4vw;
+    font-family: 'Rowdies', cursive;
+    margin: 0.2em 0;
+}
+div.content>p {
+    color: #d05f4b;
+    font-size: 1.4vmax;
+    text-align: justify;
+}
+img.about {
+    height: 300px;
+    float: right;
+    border-radius: 2em;
+    margin-left: 2em;
+}

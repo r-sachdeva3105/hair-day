@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies');
+body {
+    margin: 0;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2e0d2;
+}
+
+div.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    margin-right: 1em;
+}
+
+header>img {
+    height: 8vmax;
+}
+
+nav {
+    margin-left: 1em;
+    padding: 1em;
+    border-radius: 60px;
+    display: flex;
+    background-color: #d05f4b;
+    width: 100%;
+    justify-content: space-around;
+    /* height: 20px; */
+}
+
+nav>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2vmax;
+    font-weight: bold;
+    &:hover {
+        color: #f2e0d2;
+    }
+}
+
+footer {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+footer>img {
+    height: 1vmax;
+}
+
+footer>p {
+    color: #d05f4b;
+    font-size: 1vmax;
+}
